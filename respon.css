@@ -1,0 +1,81 @@
+@media screen  and (max-width: 576px) {
+    .container {
+     width: 30%;
+     height: 100vh;
+     margin: auto;
+     text-align: center;
+     background-color: hsl(240, 57%, 89%);
+     padding: 60px 120px;
+    }
+   h1{
+     font-family: 'Dancing Script', cursive;
+     color: hsl(240, 59%, 57%);
+     font-size: 1em;
+     font-weight: bolder;
+     margin-top: 30px;
+   }
+   li, p{
+     font-family: 'Eczar', serif;
+     color: hsl(240, 42%, 15%);
+     font-size: 1em;
+     font-weight: 500;
+     margin-top: 150px;
+   }
+   .container input:first-child{
+     position: absolute;
+     top: 130px;
+     left: 30px;
+     width: 75%;
+     padding: 5px;
+   }
+   .container input:last-child{
+     position: absolute;
+     top: 130px;
+     right: 30px;
+     width: 30px;
+     height: 39px;
+   } 
+   ul{
+     text-align: left;
+     padding: 0px;
+     margin-top: -10px;
+   }
+    li{
+     width: 260px;
+     position: relative;
+     left: -90px;
+     margin-bottom: 0px;
+   }
+    #modal{
+     width: 80%;
+     height: 100%;
+   }
+   .modal-text {
+     position: relative;
+     top: -90px;
+   }
+   .input{
+     position: relative;
+     top: -90px;
+   }
+   .check{
+     position: relative;
+     top: -50px;
+   }
+   .submission{
+     position: relative;
+     top: -100px;
+   }
+   .completion-input {
+     position: relative;
+     top: -80px;
+   }
+   .completion{
+     position: relative;
+     top: -220px;
+   }
+   .button-save{
+     position: relative;
+     top: -220px;
+   }
+ }
